@@ -15,6 +15,12 @@ public class Input {
         String str = sc.next();
         System.out.println("String is " + str);
 
+        sc.nextLine();
+
+        System.out.println("Enter the sentence");
+        String strSen = sc.nextLine(); // used for the sentence
+        System.out.println("Sentence is " + strSen);
+
         sc.close();
     }
 }
