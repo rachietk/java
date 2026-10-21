@@ -10,7 +10,7 @@ public class Sum {
         int sum = num1 + num2;
         System.out.println("Sum is = " + sum);
 
-        
-        // input.close();
+
+        input.close();
     }
 }
